@@ -1,5 +1,5 @@
 clean:
-	@ rm throw*.gem
+	@ rm -f throw*.gem
 
 build: clean
 	@ gem build throw.gemspec
