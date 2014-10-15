@@ -1,10 +1,10 @@
 clean:
-	@ rm couchdb*.gem
+	@ rm throw*.gem
 
 build: clean
-	@ gem build couchdb.gemspec
+	@ gem build throw.gemspec
 
 publish: build
-	@ gem push couchdb-*.gem
+	@ gem push throw-*.gem
 
 .PHONY: clean build publish

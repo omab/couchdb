@@ -1,3 +1,3 @@
-require_relative 'couchdb/version.rb'
-require_relative 'couchdb/design.rb'
-require_relative 'couchdb/server.rb'
+require_relative 'throw/version.rb'
+require_relative 'throw/design.rb'
+require_relative 'throw/server.rb'

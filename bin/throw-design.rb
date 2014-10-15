@@ -2,7 +2,7 @@
 
 require 'optparse'
 require 'ostruct'
-require 'couchdb'
+require 'throw'
 
 
 $options = OpenStruct.new
