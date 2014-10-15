@@ -60,7 +60,7 @@ def load_lists(doc_name)
   lists
 end
 
-server = CouchDB::Server.new($options.db)
+server = Throw::Server.new($options.db)
 
 $options.docs.each do |name|
   design = {

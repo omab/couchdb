@@ -2,7 +2,7 @@ require 'json'
 require 'rest-client'
 
 
-module CouchDB
+module Throw
   class Server
     attr_reader :db_name
     attr_reader :host

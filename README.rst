@@ -1,8 +1,8 @@
-CouchDB
-=======
+Throw
+=====
 
 
-``couchdb`` aims to be a simple API wrapper for `Apache CouchDB™`_.
+``throw`` aims to be a simple API wrapper for `Apache CouchDB™`_.
 
 **Docs and tests comming soon.**
 

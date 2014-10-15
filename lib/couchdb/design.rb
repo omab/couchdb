@@ -1,4 +1,4 @@
-module CouchDB
+module Throw
   class Design
     def initialize(server, details, query = nil)
       @server = server
